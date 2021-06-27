@@ -71,6 +71,28 @@ public class Pile2<T> implements PileI<T>{
         }
         return s + "]";
     }
+    
+     public int hashCode() {
+        return toString().hashCode();
+    }
+    public boolean equals(Object o) {
+        // a completer
+        if(o instanceof Pile2){
+            Pile2 temp;
+            temp = (Pile2)o;
+                
+            if (this.capacite() != temp.capacite() || this.taille() != temp.taille())
+                return false;
+            
+            for(int i =0;i < this.taille();i++){
+                if(!this.stk.elementAt(i).equals(temp.stk.elementAt(i)))
+                    return false;
+            }
+            return true;
+        }
+        return false;
+    }
+
     // recopier ici toutes les autres méthodes
     // qui ne sont pas modifiées en fonction
     // du type des éléments de la pile
