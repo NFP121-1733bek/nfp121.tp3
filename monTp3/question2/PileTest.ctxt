@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=PileTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ tearDown()
+comment3.params=
+comment3.target=void\ test_Pile_capacite()
+comment4.params=
+comment4.target=void\ test_Pile_estPleine()
+comment5.params=
+comment5.target=void\ test_Pile_sommet()
+comment6.params=
+comment6.target=void\ test_Pile_estVide()
+comment7.params=
+comment7.target=void\ test_Pile_toString()
+comment8.params=
+comment8.target=void\ test_Pile_TailleNegative()
+comment9.params=
+comment9.target=void\ test_Pile_equals()
+numComments=10
